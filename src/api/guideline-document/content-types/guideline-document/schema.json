@@ -34,14 +34,13 @@
         "category": {
             "type": "enumeration",
             "enum": [
-                "regulatory",
-                "technical",
-                "operational",
-                "training",
-                "report",
-                "policy"
+                "General",
+                "Logistics",
+                "Nutrition",
+                "Reports",
+                "Other"
             ],
-            "default": "regulatory",
+            "default": "General",
             "required": true
         },
         "published_date": {
