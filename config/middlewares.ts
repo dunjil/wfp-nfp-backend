@@ -22,11 +22,7 @@ const config: Core.Config.Middlewares = [
     config: {
       enabled: true,
       headers: '*',
-      origin: [
-        'http://localhost:3000',
-        'http://localhost:1337',
-        process.env.CORS_ORIGIN || '',
-      ].filter(Boolean),
+      origin: ['*'],
     },
   },
   'strapi::poweredBy',
